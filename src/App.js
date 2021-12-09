@@ -1,8 +1,30 @@
 import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import ApiInfo from './components/ApiInfo'
+
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  return (
+
+  <div>
+  <body>
+    <div className="header">
+      <Header/>
+    </div>
+    <div class="api">
+    <ApiInfo/>
+    </div>
+    <div className="footer">
+      <Footer/>
+    </div>
+    </body>
+  </div>
+  );
+
+  
 }
 
+
 export default App;
+
