@@ -33,7 +33,7 @@ export class ApiInfo extends React.Component {
 
 
         const { DataisLoaded, items } = this.state;
-        let fullpath = https://image.tmdb.org/t/p/w500;
+        let fullpath = "https://image.tmdb.org/t/p/w500";
         if (!DataisLoaded) return <div>
             <h1> Please wait some time.... </h1> </div>;
 
