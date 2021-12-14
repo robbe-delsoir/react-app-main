@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ApiInfo from './components/ApiInfo'
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <Header/>
     </div>
     <div class="api">
-
+    <ApiInfo/>
     </div>
     <div className="footer">
       <Footer/>
@@ -26,3 +27,4 @@ function App() {
 
 
 export default App;
+
