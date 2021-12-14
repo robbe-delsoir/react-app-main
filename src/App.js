@@ -12,7 +12,7 @@ function App() {
     <div className="header">
       <Header/>
     </div>
-    <div class="api">
+    <div className="api">
     <ApiInfo/>
     </div>
     <div className="footer">
