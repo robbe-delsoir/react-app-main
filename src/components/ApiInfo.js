@@ -16,7 +16,7 @@ export class ApiInfo extends React.Component {
     // execute the code 
     componentDidMount() {
         fetch(
-            "https://api.themoviedb.org/3/movie/top_rated?api_key=55957fcf3ba81b137f8fc01ac5a31fb5&language=en-US&page=1%22)
+            "https://api.themoviedb.org/3/movie/top_rated?api_key=55957fcf3ba81b137f8fc01ac5a31fb5&language=en-US&page=1%22)"
             .then((res) => res.json())
             .then((res) => {
                 this.setState({
